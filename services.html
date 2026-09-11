@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="sw">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script>
+    (function () {
+      try {
+        var saved = localStorage.getItem("elimika-theme");
+        var theme = saved || (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+        document.documentElement.setAttribute("data-theme", theme);
+        var lang = localStorage.getItem("elimika-lang") || "sw";
+        document.documentElement.setAttribute("lang", lang);
+      } catch (e) {}
+    })();
+  </script>
+  <title data-en-title="Our Services | Elimika Ung'are Professional Service Firm">Huduma Zetu | Elimika Ung'are Professional Service Firm</title>
+  <meta name="description" data-en-content="Corporate affairs, tax, licensing and advisory services from Elimika Ung'are Professional Service Firm — BRELA, TRA and NSSF registration handled step by step." content="Masuala ya kampuni, kodi, leseni na huduma za ushauri kutoka Elimika Ung'are Professional Service Firm — usajili wa BRELA, TRA na NSSF unashughulikiwa hatua kwa hatua." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="is-entering">
+  <div class="page-loader" aria-hidden="true">
+    <span class="page-loader__dot"></span>
+    <span class="page-loader__dot"></span>
+    <span class="page-loader__dot"></span>
+  </div>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="header">
+    <div class="header__inner">
+      <button class="burger" aria-label="Fungua menyu" data-en-aria-label="Open menu" aria-expanded="false" aria-controls="site-nav" type="button">
+        <span></span><span></span><span></span>
+      </button>
+
+      <a href="index.html" class="brand">
+        <span class="brand__mark"><img src="img/logo.png" alt="Elimika Ung'are logo" class="brand__logo" /></span>
+        <span class="brand__name">Elimika Ung'are<small>Professional Service Firm</small></span>
+      </a>
+
+      <nav class="nav" id="site-nav">
+        <div class="nav__drawer-head">
+          <span class="brand brand--drawer">
+            <span class="brand__mark"><img src="img/logo.png" alt="" class="brand__logo" /></span>
+            <span class="brand__name">Elimika Ung'are<small>Professional Service Firm</small></span>
+          </span>
+          <button class="nav__close" aria-label="Funga menyu" data-en-aria-label="Close menu" type="button">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+          </button>
+        </div>
+        <div class="nav__drawer-utils">
+          <button type="button" class="util-btn theme-toggle" data-theme-toggle aria-label="Badili mwonekano wa giza" data-en-aria-label="Toggle dark mode">
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          </button>
+          <button type="button" class="util-btn lang-toggle" data-lang-toggle aria-label="Switch to English">EN</button>
+        </div>
+        <ul>
+          <li><a href="index.html" class="nav__link" data-en="Home">Nyumbani</a></li>
+          <li><a href="about.html" class="nav__link" data-en="About Us">Kuhusu Sisi</a></li>
+          <li><a href="services.html" class="nav__link nav__link--active" data-en="Our Services">Huduma Zetu</a></li>
+          <li><a href="contact.html" class="nav__link" data-en="Contact Us">Wasiliana Nasi</a></li>
+        </ul>
+        <div class="nav__drawer-foot">
+          <a href="tel:+255766656758" class="nav__phone">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>+255 766 656 758</span>
+          </a>
+          <a href="contact.html" class="btn btn--gold btn--block" data-en="Book a consultation">Panga ushauri</a>
+        </div>
+      </nav>
+      <div class="nav__backdrop"></div>
+
+      <div class="header__actions">
+        <div class="header__utils">
+          <button type="button" class="util-btn theme-toggle" data-theme-toggle aria-label="Badili mwonekano wa giza" data-en-aria-label="Toggle dark mode">
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79Z"/></svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
+          </button>
+          <button type="button" class="util-btn lang-toggle" data-lang-toggle aria-label="Switch to English">EN</button>
+        </div>
+        <a href="tel:+255766656758" class="nav__phone nav__phone--desktop">+255 766 656 758</a>
+        <a href="contact.html" class="btn btn--gold header__cta" data-en="Book a consultation">Panga ushauri</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="page-header">
+      <span class="eyebrow" data-en="Our Services">Huduma Zetu</span>
+      <h1 data-en="Corporate affairs, tax, licensing and advisory">Masuala ya kampuni, kodi, leseni na ushauri</h1>
+      <p class="page-header__lede" data-en="Every service below can be requested on its own, or all together as a complete registration and compliance package.">
+        Kila huduma hapa chini inaweza kuombwa peke yake, au zote pamoja kama
+        kifurushi kamili cha usajili na uzingatiaji wa sheria.
+      </p>
+    </section>
+
+    <section class="section">
+      <div class="services-grid" data-reveal-group>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Company &amp; business name registration">Usajili wa kampuni na jina la biashara</h3>
+          <p data-en="Sole proprietorship, partnership, local and foreign company registration with BRELA, including certificates of registration, incorporation and ongoing compliance.">Usajili wa umiliki wa mtu mmoja, ushirika, kampuni za ndani na kampuni za kigeni na BRELA, ikiwemo vyeti vya usajili, uanzishwaji na uzingatiaji wa sheria.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Corporate affairs &amp; legal services">Masuala ya kampuni na huduma za kisheria</h3>
+          <p data-en="Annual returns, statutory filings and trademark registration, plus ongoing compliance through BRELA's Online Registration System (ORS).">Marejesho ya kila mwaka, uwasilishaji wa nyaraka za kisheria na usajili wa alama za biashara, pamoja na uzingatiaji endelevu kupitia Mfumo wa Usajili Mtandaoni (ORS) wa BRELA.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Tax &amp; VAT services">Huduma za kodi na VAT</h3>
+          <p data-en="TIN registration, TRA and EFD account setup, and preparation of VAT, PAYE, SDL, withholding and income tax returns, including tax clearance certificates.">Usajili wa TIN, uwekaji wa akaunti ya TRA na EFD, na uandaaji wa marejesho ya VAT, PAYE, SDL, kodi ya zuio na kodi ya mapato, ikiwemo vyeti vya ulipaji kodi.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Business licenses &amp; permits">Leseni na vibali vya biashara</h3>
+          <p data-en="Applications for Schedule A and Schedule B licenses, and microfinance licenses from the Bank of Tanzania, through to on-time renewals.">Maombi ya leseni za Schedule A na Schedule B, na leseni za taasisi za fedha ndogo (microfinance) kutoka Benki Kuu ya Tanzania, hadi kuhakikisha zinahuishwa kwa wakati.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Accounting &amp; financial reporting">Uhasibu na taarifa za fedha</h3>
+          <p data-en="Bookkeeping, financial statements, tax compliance, plus audit and assurance services for growing businesses.">Uwekaji wa vitabu vya hesabu, taarifa za fedha, ukaguzi wa kodi na uzingatiaji wa sheria, pamoja na huduma za ukaguzi na uhakiki kwa biashara zinazokua.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Finance &amp; capital advisory">Ushauri wa fedha na mitaji</h3>
+          <p data-en="Specialised advice on business finance and capital sourcing, and guidance to prepare your business for investment or loans.">Ushauri maalum kuhusu njia za fedha na mitaji ya biashara, na mwongozo wa kuandaa biashara yako kwa uwekezaji au mikopo.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Management &amp; back-office services">Huduma za usimamizi na ofisi ya nyuma</h3>
+          <p data-en="Strategic online support, human resource management, marketing and branding, supply chain management, and back-office administration.">Msaada wa kimkakati wa mtandaoni, usimamizi wa rasilimali watu, uuzaji na uwekaji chapa, usimamizi wa mnyororo wa ugavi, na usimamizi wa ofisi ya nyuma.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Training &amp; advisory">Mafunzo na ushauri</h3>
+          <p data-en="Tax education for entrepreneurs and new businesses, and comprehensive business advisory for owners, investors and institutions.">Elimu ya kodi kwa wajasiriamali na biashara mpya, na ushauri kamili wa biashara kwa wamiliki, wawekezaji na taasisi.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Registration of social institutions">Usajili wa taasisi za kijamii</h3>
+          <p data-en="Registration of non-governmental organisations (NGOs), community-based organisations (CBOs), Trustees and Foundations in line with the law.">Usajili wa mashirika yasiyo ya kiserikali (NGOs), asasi za kiraia (CBOs), miradi ya dhamana (Trustees) na taasisi za hisani (Foundations) kwa mujibu wa sheria.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Partnerships and their changes">Ushirika na mabadiliko yake (Partnerships)</h3>
+          <p data-en="Registering a new partnership, updating partnership details, and converting a partnership into a registered company as the business grows.">Usajili wa ushirika mpya, kubadili taarifa za ushirika, na kubadili ushirika kuwa kampuni rasmi pale biashara inapokua.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Company structure changes">Mabadiliko ya muundo wa kampuni</h3>
+          <p data-en="Adding or reducing shareholders, increasing or reducing company capital, changing a company or business name, and converting a business name into a company.">Kuongeza au kupunguza wanahisa, kuongeza au kupunguza mtaji wa kampuni, kubadili jina la kampuni au biashara, na kubadili biashara ya jina kuwa kampuni.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Appointment of directors &amp; secretary">Uteuzi wa wakurugenzi na katibu</h3>
+          <p data-en="Appointing or removing directors and the Company Secretary, plus submitting the relevant filings to BRELA on time.">Kuteua au kuondoa wakurugenzi na Katibu wa Kampuni, pamoja na kuwasilisha taarifa husika BRELA kwa wakati.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Service levy &amp; TRA corrections">Kodi ya huduma na masahihisho TRA</h3>
+          <p data-en="Registration and payment of Service Levy, plus correcting erroneous sales entries in the TRA system.">Usajili na malipo ya Kodi ya Huduma (Service Levy), pamoja na kusahihisha mauzo yaliyokosewa kwenye mfumo wa TRA.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Tenders &amp; procurement registration (NeST)">Usajili wa Tenda na Zabuni (NeST)</h3>
+          <p data-en="Registration on the National e-Procurement System of Tanzania (NeST) so your business can take part in public tenders.">Usajili katika Mfumo wa Kielektroniki wa Manunuzi wa Serikali (NeST) ili biashara yako iweze kushiriki tenda na zabuni za umma.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Small Industry Registration Certificate">Cheti cha Usajili wa Kiwanda Kidogo</h3>
+          <p data-en="Support obtaining a small industry registration certificate for entrepreneurs in small-scale production and processing.">Msaada wa kupata cheti cha usajili wa kiwanda kidogo kwa wajasiriamali wa uzalishaji na usindikaji mdogo.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Church, ministry &amp; religious institution registration">Usajili wa kanisa, ministry na taasisi za kidini</h3>
+          <p data-en="Registering churches, ministries and other religious institutions through BRELA's Online Registration System (ORS).">Kusajili makanisa, ministry na taasisi nyingine za kidini kupitia Mfumo wa Usajili Mtandaoni (ORS) wa BRELA.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Deed Poll &amp; Power of Attorney">Deed Poll na Power of Attorney</h3>
+          <p data-en="Preparing a Deed Poll for official name changes, and a Power of Attorney for legal representation.">Kuandaa Deed Poll kwa kubadilisha majina rasmi, na Power of Attorney kwa ajili ya uwakilishi wa kisheria.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Company Profile preparation">Kuandaa Company Profile</h3>
+          <p data-en="Preparing a professional Company Profile that meets the requirements for tenders, loans and presentations to investors and stakeholders.">Kuandaa Company Profile ya kitaalamu inayokidhi mahitaji ya zabuni, mikopo na uwasilishaji kwa wawekezaji na wadau.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="SACCOS, education &amp; industry registration">Usajili wa SACCOS, taasisi za elimu na viwanda</h3>
+          <p data-en="Registration of SACCOS, educational institutions, industries and investment projects in line with the relevant procedures.">Usajili wa SACCOS, taasisi za elimu, viwanda na miradi ya uwekezaji kwa mujibu wa taratibu husika.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Tax assessment &amp; debt tracking">Makadirio na ufuatiliaji wa madeni ya kodi</h3>
+          <p data-en="Carrying out tax assessments for companies and sole traders, and following up tax debts with TRA on your behalf.">Kufanya makadirio ya kodi ya kampuni na biashara binafsi, na kufuatilia madeni ya kodi kwa niaba yako kwa TRA.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Registering employees in the tax system">Usajili wa wafanyakazi kwenye mfumo wa kodi</h3>
+          <p data-en="Registering your employees in the TRA system so their pay and deductions are handled accurately.">Kuwasajili wafanyakazi wako kwenye mfumo wa TRA ili malipo na makato yao yashughulikiwe kwa usahihi.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="Resolving tax disputes">Utatuzi wa changamoto za kodi</h3>
+          <p data-en="Resolving tax issues including debts, penalties and incorrect assessments, working together with TRA.">Kutatua changamoto za kodi zikiwemo madeni, adhabu na makadirio yasiyo sahihi kwa kushirikiana na TRA.</p>
+        </article>
+        <article class="service-card" data-reveal>
+          <h3 data-en="TIRA (Insurance) registration">Usajili wa TIRA (Bima)</h3>
+          <p data-en="Assisting insurance companies and agents with registration through the Tanzania Insurance Regulatory Authority (TIRA).">Kusaidia usajili wa kampuni za bima na mawakala kupitia Mamlaka ya Usimamizi wa Bima Tanzania (TIRA).</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section--tint">
+      <div class="section__head" data-reveal="fade">
+        <span class="eyebrow" data-en="The process we follow">Mpangilio unaofuatwa</span>
+        <h2 data-en="How registration happens, step by step">Jinsi usajili unavyofanyika, hatua kwa hatua</h2>
+      </div>
+
+      <ol class="process" data-reveal-group>
+        <li class="process__step" data-reveal>
+          <span class="process__n">1</span>
+          <div>
+            <h3 data-en="Register with BRELA">Sajili na BRELA</h3>
+            <p data-en="We prepare and submit your documents to the Business Registration and Licensing Agency, such as a business name, local company or foreign company.">Tunaandaa na kuwasilisha nyaraka zako kwa Wakala wa Usajili wa Biashara na Leseni, kama jina la biashara, kampuni ya ndani au kampuni ya kigeni.</p>
+          </div>
+        </li>
+        <li class="process__step" data-reveal>
+          <span class="process__n">2</span>
+          <div>
+            <h3 data-en="Register with TRA">Sajili na TRA</h3>
+            <p data-en="Once BRELA issues your certificate, we obtain your TIN and set up your TRA and EFD account, so your business can trade and pay tax correctly.">Mara BRELA inapotoa cheti chako, tunapata TIN yako na kuweka akaunti ya TRA na EFD, ili biashara yako iweze kufanya biashara na kulipa kodi kwa usahihi.</p>
+          </div>
+        </li>
+        <li class="process__step" data-reveal>
+          <span class="process__n">3</span>
+          <div>
+            <h3 data-en="Register with NSSF">Sajili na NSSF</h3>
+            <p data-en="We register your business with the National Social Security Fund, making sure your employees' statutory contributions are correct.">Tunasajili biashara yako na Mfuko wa Taifa wa Hifadhi ya Jamii, kuhakikisha michango ya kisheria ya wafanyakazi wako inakuwa sahihi.</p>
+          </div>
+        </li>
+        <li class="process__step" data-reveal>
+          <span class="process__n">4</span>
+          <div>
+            <h3 data-en="Get your license">Pata leseni yako</h3>
+            <p data-en="Depending on your business type, we obtain a Schedule A license from BRELA, or a Schedule B license from your local council, and track renewal dates.">Kutegemea na aina ya biashara yako, tunapata leseni ya Schedule A kutoka BRELA, au leseni ya Schedule B kutoka halmashauri yako, na kufuatilia tarehe za uhuishaji.</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section class="cta-band">
+      <div class="cta-band__inner" data-reveal="scale">
+        <h2 data-en="Not sure which service you need?">Hujui huduma unayohitaji?</h2>
+        <p data-en="Tell us about your business and we'll advise you on the right registration.">Tuambie kuhusu biashara yako na tutakushauri usajili sahihi.</p>
+        <a href="contact.html" class="btn btn--gold" data-en="Ask us">Tuulize</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="brand brand--footer">
+        <span class="brand__mark"><img src="img/logo.png" alt="Elimika Ung'are logo" class="brand__logo" /></span>
+        <span class="brand__name">Elimika Ung'are<small>Professional Service Firm</small></span>
+      </div>
+      <ul class="footer__nav">
+        <li><a href="index.html" data-en="Home">Nyumbani</a></li>
+        <li><a href="about.html" data-en="About Us">Kuhusu Sisi</a></li>
+        <li><a href="services.html" data-en="Our Services">Huduma Zetu</a></li>
+        <li><a href="contact.html" data-en="Contact Us">Wasiliana Nasi</a></li>
+      </ul>
+      <div class="footer__social">
+        <a href="https://www.facebook.com/share/188k2xPYwT/" target="_blank" rel="noopener" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M13.5 9H15V6h-1.5C11.57 6 10 7.57 10 9.5V11H8v3h2v7h3v-7h2.1l.4-3H13V9.5c0-.28.22-.5.5-.5Z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/elimikaungare?utm_source=qr&amp;stkn=ZzVqZGpxdGtseG4y" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.3" cy="6.7" r="0.6" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://wa.me/255766656758" target="_blank" rel="noopener" aria-label="WhatsApp">
+          <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.56 1.69 6.474L2.667 29.333l6.99-1.833a13.26 13.26 0 0 0 6.347 1.617h.006c7.362 0 13.333-5.97 13.333-13.333S23.366 2.667 16.004 2.667Zm0 24.4h-.005a11.03 11.03 0 0 1-5.626-1.542l-.403-.24-4.15 1.088 1.108-4.045-.263-.415a11.02 11.02 0 0 1-1.696-5.913c0-6.106 4.968-11.073 11.078-11.073 2.958 0 5.738 1.153 7.829 3.246a10.996 10.996 0 0 1 3.245 7.83c-.002 6.105-4.97 11.064-11.117 11.064Zm6.073-8.287c-.333-.167-1.966-.97-2.27-1.08-.305-.111-.527-.166-.75.167-.221.333-.859 1.08-1.053 1.302-.194.222-.388.25-.72.083-.334-.167-1.41-.52-2.686-1.657-.993-.886-1.664-1.98-1.858-2.314-.194-.334-.02-.514.146-.68.15-.15.334-.389.5-.583.167-.194.222-.333.334-.556.11-.222.055-.417-.028-.583-.083-.167-.75-1.806-1.028-2.474-.271-.65-.546-.562-.75-.573-.194-.01-.417-.012-.639-.012-.222 0-.583.083-.888.417-.305.333-1.163 1.137-1.163 2.774 0 1.637 1.19 3.219 1.356 3.441.166.222 2.343 3.577 5.677 5.017.793.343 1.412.548 1.894.702.796.253 1.52.217 2.093.132.639-.095 1.966-.804 2.244-1.582.278-.777.278-1.443.194-1.582-.083-.139-.305-.222-.639-.389Z"/></svg>
+        </a>
+        <a href="mailto:elimikaungaretz@gmail.com" aria-label="Barua pepe">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+        </a>
+      </div>
+
+      <p class="footer__copy">&copy; <span id="year"></span> Elimika Ung'are Professional Service Firm, Mbeya, Tanzania. <span data-en="Company, tax and licensing advisory — not a government institution.">Ushauri wa kampuni, kodi na leseni — si taasisi ya serikali.</span></p>
+    </div>
+  </footer>
+
+  <div class="fab-stack">
+    <a class="fab fab--whatsapp" href="https://wa.me/255766656758" target="_blank" rel="noopener" aria-label="Wasiliana nasi kwa WhatsApp" data-en-aria-label="Contact us on WhatsApp">
+      <svg viewBox="0 0 32 32" fill="currentColor" aria-hidden="true"><path d="M16.004 2.667c-7.363 0-13.333 5.97-13.333 13.333 0 2.353.615 4.56 1.69 6.474L2.667 29.333l6.99-1.833a13.26 13.26 0 0 0 6.347 1.617h.006c7.362 0 13.333-5.97 13.333-13.333S23.366 2.667 16.004 2.667Zm0 24.4h-.005a11.03 11.03 0 0 1-5.626-1.542l-.403-.24-4.15 1.088 1.108-4.045-.263-.415a11.02 11.02 0 0 1-1.696-5.913c0-6.106 4.968-11.073 11.078-11.073 2.958 0 5.738 1.153 7.829 3.246a10.996 10.996 0 0 1 3.245 7.83c-.002 6.105-4.97 11.064-11.117 11.064Zm6.073-8.287c-.333-.167-1.966-.97-2.27-1.08-.305-.111-.527-.166-.75.167-.221.333-.859 1.08-1.053 1.302-.194.222-.388.25-.72.083-.334-.167-1.41-.52-2.686-1.657-.993-.886-1.664-1.98-1.858-2.314-.194-.334-.02-.514.146-.68.15-.15.334-.389.5-.583.167-.194.222-.333.334-.556.11-.222.055-.417-.028-.583-.083-.167-.75-1.806-1.028-2.474-.271-.65-.546-.562-.75-.573-.194-.01-.417-.012-.639-.012-.222 0-.583.083-.888.417-.305.333-1.163 1.137-1.163 2.774 0 1.637 1.19 3.219 1.356 3.441.166.222 2.343 3.577 5.677 5.017.793.343 1.412.548 1.894.702.796.253 1.52.217 2.093.132.639-.095 1.966-.804 2.244-1.582.278-.777.278-1.443.194-1.582-.083-.139-.305-.222-.639-.389Z"/></svg>
+    </a>
+    <button type="button" class="fab fab--top" aria-label="Rudi juu" data-en-aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 19V5"/><path d="M5 12l7-7 7 7"/></svg>
+    </button>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
