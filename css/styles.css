@@ -768,7 +768,7 @@ html[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
 
 /* Portrait variant (About — founder photos) */
 .slider--portrait { max-width: 280px; margin: 0; }
-.slider--portrait .slider__slide img { height: 360px; object-fit: cover; }
+.slider--portrait .slider__slide img { height: 360px; object-fit: cover; object-position: top; }
 
 /* Leader / founder profile (About) */
 .leader {
